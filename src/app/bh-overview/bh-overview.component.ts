@@ -8,14 +8,14 @@ import {Hive} from "./hive";
   templateUrl: './bh-overview.component.html',
   styleUrls: ['./bh-overview.component.scss'],
   host: {
-    '[fxFlex]': '',
-    '[fxLayout]': 'column',
-    '[fxFlexFill]': ''
+    'fxFlex': '',
+    'fxLayout': 'column',
+    'fxFlexFill': ''
   }
 })
 export class BhOverviewComponent implements OnInit {
 
-  hives: Array<Hive>;
+  hives: any;
 
   constructor(private bhOverviewService : BhOverviewService) {
   }
