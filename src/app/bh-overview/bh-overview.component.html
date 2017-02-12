@@ -1,0 +1,18 @@
+<div fxFlex fxFlexFill fxLayout="column">
+  <md-grid-list cols="3" rowHeight="fit" fxFlex fxFlexFill>
+    <md-grid-tile *ngFor="let hive of hives">
+      <svg>
+        <symbol id="frame">
+          <path d="M0 0 L40 0 L40 30 L35 35 L35 200 L5 200 L5 35 L0 30Z" fill="#ccc" stroke="#333" stroke-width="1px"></path>
+        </symbol>
+        <use xlink:href="#frame" x="0" y="0"></use>
+        <use xlink:href="#frame" x="42" y="0"></use>
+        <use xlink:href="#frame" x="84" y="0"></use>
+        <use xlink:href="#frame" x="126" y="0"></use>
+        <use xlink:href="#frame" x="168" y="0"></use>
+        <use xlink:href="#frame" x="210" y="0"></use>
+        <use xlink:href="#frame" x="252" y="0"></use>
+      </svg>
+    </md-grid-tile>
+  </md-grid-list>
+</div>

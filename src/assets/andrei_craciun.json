@@ -1,0 +1,834 @@
+[
+  {
+    "bodies": [
+      {
+        "frames": [],
+        "hiveBodyType": "TYPE_1_BY_1"
+      },
+      {
+        "frames": [],
+        "hiveBodyType": "TYPE_1_BY_2"
+      }
+    ],
+    "hasSensors": false,
+    "id": 1,
+    "location": {
+      "hives": [],
+      "latitude": 123.0,
+      "longitude": 123.0,
+      "name": "Stupina proprie"
+    },
+    "macAddress": "20:91:48:4C:08:AF",
+    "nextVisit": "Jan 21, 2017 12:00:00 PM",
+    "owner": "Andrei CRACIUN",
+    "sensorDataSet": [],
+    "type": "DADANT_12",
+    "visits": [
+      {
+        "date": "Jan 9, 2017 9:51:41 PM",
+        "nextVisit": "Jan 21, 2017 12:00:00 PM",
+        "operations": [
+          {
+            "broodPresent": true,
+            "freshEggsPresent": false,
+            "queenSeen": true,
+            "removedDroneCells": false,
+            "removedQueenCells": false,
+            "operationName": "Generalitati",
+            "performed": true,
+            "type": "OBSERVATION_GENERAL"
+          },
+          {
+            "locaAmericana": false,
+            "nosema": false,
+            "varroa": false,
+            "operationName": "Boli observate",
+            "performed": false,
+            "type": "OBSERVATION_DISEASES"
+          },
+          {
+            "selectedOption": -1,
+            "operationName": "Rezerve hrana",
+            "performed": false,
+            "type": "FOOD_STATUS"
+          },
+          {
+            "selectedOption": -1,
+            "operationName": "Cantitate albine",
+            "performed": false,
+            "type": "BEE_NUMBER_STATUS"
+          },
+          {
+            "selectedOption": -1,
+            "operationName": "Adauga matca",
+            "performed": false,
+            "type": "ADD_QUEEN"
+          },
+          {
+            "selectedOption": -1,
+            "operationName": "Hranire",
+            "performed": false,
+            "type": "ADD_FOOD"
+          }
+        ]
+      }
+    ],
+    "yearOfTheLastQueenChange": 0
+  },
+  {
+    "bodies": [
+      {
+        "frames": [],
+        "hiveBodyType": "TYPE_WARRE_21_CM"
+      }
+    ],
+    "hasSensors": false,
+    "id": 7,
+    "location": {
+      "hives": [],
+      "latitude": 123.0,
+      "longitude": 123.0,
+      "name": "Stupina proprie"
+    },
+    "macAddress": "20:91:48:4C:08:AF",
+    "nextVisit": "Jan 2, 2017 10:10:13 PM",
+    "owner": "Andrei CRACIUN",
+    "sensorDataSet": [],
+    "type": "WARRE",
+    "visits": [],
+    "yearOfTheLastQueenChange": 0
+  },
+  {
+    "bodies": [
+      {
+        "frames": [],
+        "hiveBodyType": "TYPE_3_BY_4"
+      },
+      {
+        "frames": [],
+        "hiveBodyType": "TYPE_1_BY_1"
+      },
+      {
+        "frames": [],
+        "hiveBodyType": "TYPE_1_BY_1"
+      },
+      {
+        "frames": [
+          {
+            "id": 0,
+            "orderFromLeftToRight": 0,
+            "types": [
+              "PUIET_NECAPACIT",
+              "MIERE",
+              "POLEN",
+              "OUA"
+            ],
+            "width": 370
+          }
+        ],
+        "hiveBodyType": "TYPE_3_BY_4"
+      },
+      {
+        "frames": [],
+        "hiveBodyType": "TYPE_1_BY_1"
+      }
+    ],
+    "hasSensors": false,
+    "id": 8,
+    "location": {
+      "hives": [],
+      "latitude": 123.0,
+      "longitude": 123.0,
+      "name": "Stupina proprie"
+    },
+    "macAddress": "20:91:48:4C:08:AF",
+    "nextVisit": "Jan 2, 2017 10:10:16 PM",
+    "owner": "Andrei CRACIUN",
+    "sensorDataSet": [],
+    "type": "WARRE",
+    "visits": [],
+    "yearOfTheLastQueenChange": 0
+  },
+  {
+    "bodies": [
+      {
+        "frames": [],
+        "hiveBodyType": "TYPE_WARRE_21_CM"
+      },
+      {
+        "frames": [],
+        "hiveBodyType": "TYPE_3_BY_4"
+      },
+      {
+        "frames": [],
+        "hiveBodyType": "TYPE_3_BY_4"
+      }
+    ],
+    "hasSensors": false,
+    "id": 9,
+    "location": {
+      "hives": [],
+      "latitude": 123.0,
+      "longitude": 123.0,
+      "name": "Stupina proprie"
+    },
+    "macAddress": "20:91:48:4C:08:AF",
+    "nextVisit": "Feb 25, 2017 12:00:00 PM",
+    "owner": "Andrei CRACIUN",
+    "sensorDataSet": [],
+    "type": "WARRE",
+    "visits": [
+      {
+        "date": "Jan 6, 2017 8:32:42 PM",
+        "nextVisit": "Feb 25, 2017 12:00:00 PM",
+        "operations": [
+          {
+            "broodPresent": false,
+            "freshEggsPresent": false,
+            "queenSeen": true,
+            "removedDroneCells": false,
+            "removedQueenCells": false,
+            "operationName": "Generalitati",
+            "performed": true,
+            "type": "OBSERVATION_GENERAL"
+          },
+          {
+            "locaAmericana": false,
+            "nosema": false,
+            "varroa": false,
+            "operationName": "Boli observate",
+            "performed": false,
+            "type": "OBSERVATION_DISEASES"
+          },
+          {
+            "selectedOption": -1,
+            "operationName": "Rezerve hrana",
+            "performed": false,
+            "type": "FOOD_STATUS"
+          },
+          {
+            "selectedOption": -1,
+            "operationName": "Cantitate albine",
+            "performed": false,
+            "type": "BEE_NUMBER_STATUS"
+          },
+          {
+            "selectedOption": -1,
+            "operationName": "Adauga matca",
+            "performed": false,
+            "type": "ADD_QUEEN"
+          },
+          {
+            "selectedOption": -1,
+            "operationName": "Hranire",
+            "performed": false,
+            "type": "ADD_FOOD"
+          }
+        ]
+      }
+    ],
+    "yearOfTheLastQueenChange": 0
+  },
+  {
+    "bodies": [
+      {
+        "frames": [
+          {
+            "id": 0,
+            "orderFromLeftToRight": 0,
+            "types": [
+              "PUIET",
+              "POLEN",
+              "PASTURA",
+              "MIERE"
+            ],
+            "width": 370
+          },
+          {
+            "id": 0,
+            "orderFromLeftToRight": 1,
+            "types": [
+              "PUIET",
+              "PASTURA",
+              "POLEN",
+              "MIERE"
+            ],
+            "width": 370
+          },
+          {
+            "id": 0,
+            "orderFromLeftToRight": 2,
+            "types": [
+              "PUIET",
+              "POLEN",
+              "PASTURA",
+              "MIERE"
+            ],
+            "width": 370
+          },
+          {
+            "id": 0,
+            "orderFromLeftToRight": 3,
+            "types": [
+              "PUIET",
+              "PASTURA",
+              "POLEN",
+              "MIERE"
+            ],
+            "width": 370
+          },
+          {
+            "id": 0,
+            "orderFromLeftToRight": 4,
+            "types": [
+              "PUIET",
+              "POLEN",
+              "PASTURA",
+              "MIERE"
+            ],
+            "width": 370
+          },
+          {
+            "id": 0,
+            "orderFromLeftToRight": 5,
+            "types": [
+              "PUIET",
+              "PASTURA",
+              "POLEN",
+              "MIERE"
+            ],
+            "width": 370
+          },
+          {
+            "id": 0,
+            "orderFromLeftToRight": 6,
+            "types": [
+              "PUIET",
+              "POLEN",
+              "PASTURA",
+              "MIERE"
+            ],
+            "width": 370
+          },
+          {
+            "id": 0,
+            "orderFromLeftToRight": 7,
+            "types": [
+              "PASTURA",
+              "POLEN"
+            ],
+            "width": 370
+          },
+          {
+            "id": 0,
+            "orderFromLeftToRight": 8,
+            "types": [
+              "POLEN",
+              "PASTURA",
+              "MIERE"
+            ],
+            "width": 370
+          },
+          {
+            "id": 0,
+            "orderFromLeftToRight": 9,
+            "types": [
+              "PASTURA"
+            ],
+            "width": 370
+          },
+          {
+            "id": 0,
+            "orderFromLeftToRight": 10,
+            "types": [
+              "POLEN",
+              "MIERE"
+            ],
+            "width": 370
+          }
+        ],
+        "hiveBodyType": "TYPE_1_BY_1"
+      },
+      {
+        "frames": [
+          {
+            "id": 0,
+            "orderFromLeftToRight": 0,
+            "types": [
+              "PUIET",
+              "POLEN",
+              "PASTURA",
+              "MIERE"
+            ],
+            "width": 370
+          },
+          {
+            "id": 0,
+            "orderFromLeftToRight": 1,
+            "types": [
+              "PUIET",
+              "PASTURA",
+              "POLEN",
+              "MIERE"
+            ],
+            "width": 370
+          },
+          {
+            "id": 0,
+            "orderFromLeftToRight": 2,
+            "types": [
+              "PUIET",
+              "POLEN",
+              "PASTURA",
+              "MIERE"
+            ],
+            "width": 370
+          },
+          {
+            "id": 0,
+            "orderFromLeftToRight": 3,
+            "types": [
+              "PASTURA",
+              "POLEN",
+              "MIERE"
+            ],
+            "width": 370
+          },
+          {
+            "id": 0,
+            "orderFromLeftToRight": 4,
+            "types": [
+              "PUIET",
+              "POLEN",
+              "PASTURA",
+              "MIERE"
+            ],
+            "width": 370
+          },
+          {
+            "id": 0,
+            "orderFromLeftToRight": 5,
+            "types": [
+              "PUIET",
+              "PASTURA",
+              "POLEN",
+              "MIERE"
+            ],
+            "width": 370
+          },
+          {
+            "id": 0,
+            "orderFromLeftToRight": 6,
+            "types": [
+              "PUIET",
+              "POLEN",
+              "PASTURA",
+              "MIERE"
+            ],
+            "width": 370
+          },
+          {
+            "id": 0,
+            "orderFromLeftToRight": 7,
+            "types": [
+              "PUIET",
+              "PASTURA",
+              "POLEN"
+            ],
+            "width": 370
+          },
+          {
+            "id": 0,
+            "orderFromLeftToRight": 8,
+            "types": [
+              "PUIET",
+              "POLEN",
+              "PASTURA",
+              "MIERE"
+            ],
+            "width": 370
+          },
+          {
+            "id": 0,
+            "orderFromLeftToRight": 9,
+            "types": [
+              "PUIET",
+              "PASTURA",
+              "POLEN",
+              "MIERE"
+            ],
+            "width": 370
+          },
+          {
+            "id": 0,
+            "orderFromLeftToRight": 10,
+            "types": [
+              "PUIET",
+              "POLEN",
+              "PASTURA",
+              "MIERE"
+            ],
+            "width": 370
+          },
+          {
+            "id": 0,
+            "orderFromLeftToRight": 11,
+            "types": [
+              "PUIET",
+              "PASTURA",
+              "MIERE"
+            ],
+            "width": 370
+          }
+        ],
+        "hiveBodyType": "TYPE_1_BY_1"
+      }
+    ],
+    "hasSensors": false,
+    "id": 10,
+    "location": {
+      "hives": [],
+      "latitude": 123.0,
+      "longitude": 123.0,
+      "name": "Stupina proprie"
+    },
+    "macAddress": "20:91:48:4C:08:AF",
+    "nextVisit": "Jan 2, 2017 10:10:31 PM",
+    "owner": "Andrei CRACIUN",
+    "sensorDataSet": [],
+    "type": "DADANT_12",
+    "visits": [],
+    "yearOfTheLastQueenChange": 0
+  },
+  {
+    "bodies": [
+      {
+        "frames": [
+          {
+            "id": 0,
+            "orderFromLeftToRight": 0,
+            "types": [
+              "PUIET",
+              "PASTURA",
+              "POLEN",
+              "MIERE"
+            ],
+            "width": 370
+          },
+          {
+            "id": 0,
+            "orderFromLeftToRight": 1,
+            "types": [
+              "PUIET",
+              "POLEN",
+              "PASTURA",
+              "MIERE"
+            ],
+            "width": 370
+          },
+          {
+            "id": 0,
+            "orderFromLeftToRight": 2,
+            "types": [
+              "PUIET",
+              "PASTURA",
+              "POLEN",
+              "MIERE"
+            ],
+            "width": 370
+          },
+          {
+            "id": 0,
+            "orderFromLeftToRight": 3,
+            "types": [
+              "MIERE",
+              "POLEN"
+            ],
+            "width": 370
+          },
+          {
+            "id": 0,
+            "orderFromLeftToRight": 4,
+            "types": [
+              "PUIET",
+              "PASTURA",
+              "POLEN",
+              "MIERE"
+            ],
+            "width": 370
+          },
+          {
+            "id": 0,
+            "orderFromLeftToRight": 7,
+            "types": [
+              "PASTURA",
+              "MIERE"
+            ],
+            "width": 370
+          },
+          {
+            "id": 0,
+            "orderFromLeftToRight": 12,
+            "types": [
+              "MIERE",
+              "PASTURA",
+              "POLEN",
+              "PUIET_NECAPACIT",
+              "PUIET_CAPACIT",
+              "OUA",
+              "BOTCA"
+            ],
+            "width": 370
+          },
+          {
+            "id": 0,
+            "orderFromLeftToRight": 13,
+            "types": [
+              "MIERE",
+              "PASTURA",
+              "POLEN",
+              "PUIET_NECAPACIT",
+              "PUIET_CAPACIT",
+              "OUA",
+              "BOTCA"
+            ],
+            "width": 370
+          },
+          {
+            "id": 0,
+            "orderFromLeftToRight": 11,
+            "types": [
+              "GOALA"
+            ],
+            "width": 370
+          },
+          {
+            "id": 0,
+            "orderFromLeftToRight": 11,
+            "types": [
+              "MIERE",
+              "PUIET_NECAPACIT",
+              "BOTCA",
+              "OUA"
+            ],
+            "width": 370
+          },
+          {
+            "id": 0,
+            "orderFromLeftToRight": 10,
+            "types": [
+              "PUIET_NECAPACIT",
+              "OUA"
+            ],
+            "width": 370
+          },
+          {
+            "id": 0,
+            "orderFromLeftToRight": 11,
+            "types": [
+              "PUIET_NECAPACIT",
+              "OUA"
+            ],
+            "width": 370
+          }
+        ],
+        "hiveBodyType": "TYPE_1_BY_1"
+      },
+      {
+        "frames": [
+          {
+            "id": 0,
+            "orderFromLeftToRight": 0,
+            "types": [
+              "MIERE"
+            ],
+            "width": 450
+          },
+          {
+            "id": 0,
+            "orderFromLeftToRight": 1,
+            "types": [
+              "MIERE"
+            ],
+            "width": 450
+          },
+          {
+            "id": 0,
+            "orderFromLeftToRight": 2,
+            "types": [
+              "MIERE"
+            ],
+            "width": 450
+          },
+          {
+            "id": 0,
+            "orderFromLeftToRight": 3,
+            "types": [
+              "MIERE"
+            ],
+            "width": 450
+          },
+          {
+            "id": 0,
+            "orderFromLeftToRight": 4,
+            "types": [
+              "MIERE"
+            ],
+            "width": 450
+          },
+          {
+            "id": 0,
+            "orderFromLeftToRight": 5,
+            "types": [
+              "MIERE"
+            ],
+            "width": 450
+          },
+          {
+            "id": 0,
+            "orderFromLeftToRight": 6,
+            "types": [
+              "MIERE"
+            ],
+            "width": 450
+          },
+          {
+            "id": 0,
+            "orderFromLeftToRight": 7,
+            "types": [
+              "MIERE"
+            ],
+            "width": 450
+          },
+          {
+            "id": 0,
+            "orderFromLeftToRight": 8,
+            "types": [
+              "MIERE"
+            ],
+            "width": 450
+          },
+          {
+            "id": 0,
+            "orderFromLeftToRight": 9,
+            "types": [
+              "MIERE"
+            ],
+            "width": 450
+          }
+        ],
+        "hiveBodyType": "TYPE_1_BY_2"
+      }
+    ],
+    "hasSensors": false,
+    "id": 11,
+    "location": {
+      "hives": [],
+      "latitude": 123.0,
+      "longitude": 123.0,
+      "name": "Stupina proprie"
+    },
+    "macAddress": "20:91:48:4C:08:AF",
+    "nextVisit": "Jan 2, 2017 10:14:04 PM",
+    "owner": "Andrei CRACIUN",
+    "sensorDataSet": [],
+    "type": "DADANT_12",
+    "visits": [],
+    "yearOfTheLastQueenChange": 0
+  },
+  {
+    "bodies": [
+      {
+        "frames": [],
+        "hiveBodyType": "TYPE_1_BY_1"
+      }
+    ],
+    "hasSensors": false,
+    "id": 12,
+    "location": {
+      "hives": [],
+      "latitude": 123.0,
+      "longitude": 123.0,
+      "name": "Stupina proprie"
+    },
+    "macAddress": "20:91:48:4C:08:AF",
+    "nextVisit": "Jan 21, 2017 12:00:00 PM",
+    "owner": "Andrei CRACIUN",
+    "sensorDataSet": [],
+    "type": "DADANT_12",
+    "visits": [
+      {
+        "date": "Jan 9, 2017 9:50:53 PM",
+        "nextVisit": "Jan 21, 2017 12:00:00 PM",
+        "operations": [
+          {
+            "broodPresent": false,
+            "freshEggsPresent": false,
+            "queenSeen": true,
+            "removedDroneCells": false,
+            "removedQueenCells": false,
+            "operationName": "Generalitati",
+            "performed": true,
+            "type": "OBSERVATION_GENERAL"
+          },
+          {
+            "locaAmericana": false,
+            "nosema": false,
+            "varroa": false,
+            "operationName": "Boli observate",
+            "performed": false,
+            "type": "OBSERVATION_DISEASES"
+          },
+          {
+            "selectedOption": -1,
+            "operationName": "Rezerve hrana",
+            "performed": false,
+            "type": "FOOD_STATUS"
+          },
+          {
+            "selectedOption": -1,
+            "operationName": "Cantitate albine",
+            "performed": false,
+            "type": "BEE_NUMBER_STATUS"
+          },
+          {
+            "selectedOption": -1,
+            "operationName": "Adauga matca",
+            "performed": false,
+            "type": "ADD_QUEEN"
+          },
+          {
+            "selectedOption": -1,
+            "operationName": "Hranire",
+            "performed": false,
+            "type": "ADD_FOOD"
+          }
+        ]
+      }
+    ],
+    "yearOfTheLastQueenChange": 0
+  },
+  {
+    "bodies": [
+      {
+        "frames": [],
+        "hiveBodyType": "TYPE_1_BY_1"
+      }
+    ],
+    "hasSensors": false,
+    "id": 13,
+    "location": {
+      "hives": [],
+      "latitude": 123.0,
+      "longitude": 123.0,
+      "name": "Stupina proprie"
+    },
+    "macAddress": "20:91:48:4C:08:AF",
+    "nextVisit": "Jan 2, 2017 10:14:18 PM",
+    "owner": "Andrei CRACIUN",
+    "sensorDataSet": [],
+    "type": "DADANT_12",
+    "visits": [],
+    "yearOfTheLastQueenChange": 0
+  }
+]

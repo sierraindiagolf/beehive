@@ -1,3 +1,27 @@
-<h1>
-  {{title}}
-</h1>
+<div fxLayout="column" fxFlexFill>
+  <md-toolbar class="md2 md-toolbar md-primary">
+    <h3>
+      Beehive
+    </h3>
+  </md-toolbar>
+  <md-tab-group>
+    <md-tab>
+      <template md-tab-label>
+        <a routerLink="/overview" routerLinkActive="active">Privire de ansamblu</a>
+      </template>
+    </md-tab>
+    <md-tab>
+      <template md-tab-label>
+        <a routerLink="/visits" routerLinkActive="active">Vizite</a>
+      </template>
+    </md-tab>
+    <md-tab>
+      <template md-tab-label>
+        <a routerLink="/sensors" routerLinkActive="active">Senzori</a>
+      </template>
+    </md-tab>
+  </md-tab-group>
+  <div fxFlex fxLayoutAlign="start" fxLayout="column" style="padding:20px;">
+    <router-outlet></router-outlet>
+  </div>
+</div>
