@@ -1,0 +1,64 @@
+[{
+  "hasSensors": false,
+  "id": 4,
+  "location": {
+    "hives": [],
+    "latitude": 123.0,
+    "longitude": 123.0,
+    "name": "Stupina proprie"
+  },
+  "macAddress": "20:91:48:4C:08:AF",
+  "nextVisit": "Mar 10, 2017 6:52:15 PM",
+  "owner": "Mihai",
+  "sensorDataSet": [],
+  "type": "DADANT_12",
+  "visits": [
+    {
+      "bodies": [
+        {
+          "frames": [],
+          "hiveBodyType": "TYPE_1_BY_1"
+        },
+        {
+          "frames": [],
+          "hiveBodyType": "TYPE_1_BY_2"
+        }
+      ],
+      "date": "Mar 11, 2017 11:48:06 AM",
+      "generalStatuses": [
+        "PUIET",
+        "MATCA"
+      ],
+      "operations": []
+    },
+    {
+      "bodies": [
+        {
+          "frames": [],
+          "hiveBodyType": "TYPE_1_BY_1"
+        },
+        {
+          "frames": [],
+          "hiveBodyType": "TYPE_1_BY_2"
+        }
+      ],
+      "date": "Mar 10, 2017 7:43:27 PM",
+      "generalStatuses": [
+        "PUIET"
+      ],
+      "operations": []
+    },
+    {
+      "bodies": [
+        {
+          "frames": [],
+          "hiveBodyType": "TYPE_1_BY_1"
+        }
+      ],
+      "date": "Mar 8, 2017 6:52:15 PM",
+      "generalStatuses": [],
+      "operations": []
+    }
+  ],
+  "yearOfTheLastQueenChange": 0
+}]

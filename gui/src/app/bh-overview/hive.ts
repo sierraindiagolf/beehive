@@ -1,5 +1,4 @@
 export class Hive {
-  bodies: Array<Object>;
   hasSensors: boolean;
   id: Number;
   location: Object;
@@ -8,6 +7,6 @@ export class Hive {
   owner: String;
   sensorDataSet: Array<Object>;
   type: String;
-  visits: Array<Object>;
+  visits: Array<any>;
   yearOfTheLastQueenChange: Number;
 }

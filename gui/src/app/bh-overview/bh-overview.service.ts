@@ -9,7 +9,7 @@ import {Observable} from "rxjs";
 @Injectable()
 export class BhOverviewService {
 
-  private hiveurl = 'assets/andrei_craciun.json';
+  private hiveurl = 'assets/mock.json';
 
   constructor(private http: Http) {
   }

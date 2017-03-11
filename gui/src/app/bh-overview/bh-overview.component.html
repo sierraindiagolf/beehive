@@ -1,15 +1,24 @@
 <div fxFlex fxFlexFill fxLayout="column">
-  <md-grid-list cols="3" rowHeight="160px" fxFlex fxFlexFill>
+  <md-grid-list cols="3" rowHeight="194px" gutterSize="5px" fxFlex fxFlexFill>
+    <svg style="display: none;">
+      <symbol id="frame">
+        <path d="M0 0 L40 0 L40 30 L35 35 L35 150 L5 150 L5 35 L0 30Z" fill="#ccc" stroke="#333" stroke-width="1px"></path>
+      </symbol>
+    </svg>
     <template ngFor let-hive [ngForOf]="hives">
       <md-grid-tile>
-        <svg style="display: none;">
-          <symbol id="frame">
-            <path d="M0 0 L40 0 L40 30 L35 35 L35 150 L5 150 L5 35 L0 30Z" fill="#ccc" stroke="#333" stroke-width="1px"></path>
-          </symbol>
-        </svg>
-        <svg [bhHive]="hive">
-          <g class="frames"></g>
-        </svg>
+        <div fxLayout="column" [bhHive]="hive">
+          <div class="generalStatuses" fxLayout="row" fxLayoutAlign="start center">
+            <template ngFor="" let-status [ngForOf]="hive.visits[0].generalStatuses">
+              <i class="status-icon">
+                <img src="{{'assets/images/general-statuses/'+status.toLowerCase()+'.png'}}">
+              </i>
+            </template>
+          </div>
+          <svg>
+            <g class="frames"></g>
+          </svg>
+        </div>
       </md-grid-tile>
     </template>
   </md-grid-list>
