@@ -30,3 +30,15 @@ $theme: md-light-theme($primary, $accent);
 
   @include angular-material-theme($dark-theme);
 }
+
+.padding-left-right {
+  padding: 0px 10px;
+}
+
+.padding-left {
+  padding-left: 10px;
+}
+
+.padding-right {
+  padding-right: 10px;
+}
