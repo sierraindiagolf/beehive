@@ -5,23 +5,11 @@
       <span>BeeByte</span>
     </h3>
   </md-toolbar>
-  <md-tab-group>
-    <md-tab>
-      <template md-tab-label>
-        <a routerLink="/overview" routerLinkActive="active">Privire de ansamblu</a>
-      </template>
-    </md-tab>
-    <md-tab>
-      <template md-tab-label>
-        <a routerLink="/visits" routerLinkActive="active">Vizite</a>
-      </template>
-    </md-tab>
-    <md-tab>
-      <template md-tab-label>
-        <a routerLink="/sensors" routerLinkActive="active">Senzori</a>
-      </template>
-    </md-tab>
-  </md-tab-group>
+  <nav md-tab-nav-bar>
+    <a md-tab-link="" routerLinkActive #rla="routerLinkActive" [active]="rla.isActive" [routerLink]="['overview']">Privire de ansamblu</a>
+    <a md-tab-link="" routerLinkActive #rla="routerLinkActive" [active]="rla.isActive" [routerLink]="['visits']">Vizite</a>
+    <a md-tab-link="" routerLinkActive #rla="routerLinkActive" [active]="rla.isActive" [routerLink]="['sensors']">Senzori</a>
+  </nav>
   <div fxFlex fxLayoutAlign="start" fxLayout="column" style="padding:20px;">
     <router-outlet></router-outlet>
   </div>
