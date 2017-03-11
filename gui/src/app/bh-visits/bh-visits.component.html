@@ -14,26 +14,28 @@
         <path d="M0,0 L50,0 L50,8 L45,8 L45,5 L5,5 L5,8 L0,8"></path>
       </symbol>
     </svg>
-    <md-list-item>
-      <div class="badge" fxLayout="column" fxLayoutAlign="'center center'">
-        <div class="notifications-icon" md-list-avatar="" fxLayout="" fxLayoutAlign="center center">
-          1
+    <template ngFor let-hive [ngForOf]="hives">
+      <md-list-item>
+        <div class="badge" fxLayout="column" fxLayoutAlign="'center center'">
+          <div class="notifications-icon" md-list-avatar="" fxLayout="" fxLayoutAlign="center center">
+            1
+          </div>
+          <div class="next-visit">In 36 days</div>
         </div>
-        <div class="next-visit">In 36 days</div>
-      </div>
-      <div class="hive">
-        <svg width="100px" height="50px">
-          <g transform="translate(15 0)">
-            <use xlink:href="#top" class="green"></use>
-            <use y="12px" xlink:href="#middle" class="green"></use>
-            <use x="2px" y="38px" xlink:href="#bottom" class="green"></use>
-          </g>
-        </svg>
-      </div>
-      <div class="notes" fxLayout="column">
-        <b>14 Days Ago</b>
+        <div class="hive">
+          <svg width="100px" height="50px">
+            <g transform="translate(15 0)">
+              <use xlink:href="#top" class="green"></use>
+              <use y="12px" xlink:href="#middle" class="green"></use>
+              <use x="2px" y="38px" xlink:href="#bottom" class="green"></use>
+            </g>
+          </svg>
+        </div>
+        <div class="notes" fxLayout="column">
+          <b>14 Days Ago</b>
 
-      </div>
-    </md-list-item>
+        </div>
+      </md-list-item>
+    </template>
   </md-list>
 </div>

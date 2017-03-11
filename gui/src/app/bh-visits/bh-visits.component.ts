@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { BhVisitsService } from './bh-visits.service';
 
 @Component({
   selector: 'app-bh-visits',
@@ -7,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BhVisitsComponent implements OnInit {
 
-  constructor() { }
+  hives: any;
+
+  constructor(private bhOverviewService : BhVisitsService) {
+  }
 
   ngOnInit() {
+    this.bhOverviewService.getHives().subscribe(hives => this.hives = hives);
   }
 
 }
