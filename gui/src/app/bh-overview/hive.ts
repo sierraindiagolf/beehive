@@ -7,6 +7,6 @@ export class Hive {
   owner: String;
   sensorDataSet: Array<Object>;
   type: String;
-  visits: Array<any>;
+  visit: any;
   yearOfTheLastQueenChange: Number;
 }

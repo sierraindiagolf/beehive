@@ -9,7 +9,7 @@
       <md-grid-tile>
         <div fxLayout="column" [bhHive]="hive">
           <div class="generalStatuses" fxLayout="row" fxLayoutAlign="start center">
-            <template ngFor="" let-status [ngForOf]="hive.visits[0].generalStatuses">
+            <template ngFor="" let-status [ngForOf]="hive.visit.generalStatuses">
               <i class="status-icon">
                 <img src="{{'assets/images/general-statuses/'+status.toLowerCase()+'.png'}}">
               </i>

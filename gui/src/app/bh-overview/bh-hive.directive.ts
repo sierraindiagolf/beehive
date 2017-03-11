@@ -10,7 +10,7 @@ export class BhHiveDirective implements OnInit {
 
   ngOnInit(): void {
     var framesGroup = this.element.nativeElement.querySelector('g.frames');
-    var selection = d3.select(framesGroup).selectAll('use').data(this.hive.visits[0].bodies);
+    var selection = d3.select(framesGroup).selectAll('use').data(this.hive.visit.bodies);
     selection.enter()
       .append('use')
       .attr('xlink:href', '#frame')
